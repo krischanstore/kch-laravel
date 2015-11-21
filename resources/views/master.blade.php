@@ -10,5 +10,6 @@
 		@yield('konten')	<!--Konten yang berbeda-beda-->
 
 	<h1>Footer</h1>			<!--Footer untuk semua page-->
+	<p>url: {{ url() }} </p>
 </body>
 </html>
