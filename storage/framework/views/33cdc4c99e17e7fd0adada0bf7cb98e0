@@ -1,0 +1,7 @@
+ 		<!--memanggil dan menampilkan view master -->
+
+<?php $__env->startSection('konten'); ?>
+Jenis konten: <?php echo e($data['tipe']); ?>, jumlah: <?php echo e($data['jumlah']); ?>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
